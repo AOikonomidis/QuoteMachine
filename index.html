@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/9e06a074cc.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container-fluid text-center">
+      <h1>Random Quote Generator</h1>
+      <div class="quotes">
+        <div>
+          <h2>"<span id="quote"></span>"</h2>
+        </div>
+        <div>
+          <h4>~<span id="author"></span></h4>
+        </div>
+      </div>
+      <div id="buttons">
+        <button class="btn btn-default" id="generator">New Quote</button>
+        <a id="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+    <footer class="text-center">
+      <hr>
+      <p>by <a id="name" href="https://www.freecodecamp.com/aoikonomidis" target="_blank">Andrew</a></p>
+    </footer>
+  </body>
+</html>
