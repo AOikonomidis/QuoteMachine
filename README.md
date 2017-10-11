@@ -1,2 +1,2 @@
-# QuoteMachine
-Random Quote Machine
+# Random Quote Machine
+
