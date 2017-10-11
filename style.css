@@ -1,0 +1,67 @@
+body {
+    background-color: turquoise;
+}
+  
+h1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+}
+  
+h2 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+}
+  
+h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-style: italic;
+}
+  
+.quotes {
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 200px;
+    max-width: 70%;  
+}
+  
+#generator {
+    cursor: pointer;
+}
+  
+#buttons > a {
+    display: block;
+    margin: 5px auto;
+    background: #55acee;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+  
+#buttons > a:hover {
+    background: #358cce;
+}
+  
+footer {
+    color: black;
+}
+  
+#name {
+    color: black;
+    font-family: Papyrus, fantasy;
+    font-size: 18px;
+}
+  
+  
+  
