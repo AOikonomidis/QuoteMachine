@@ -95,7 +95,7 @@ var quotes = [
       quote: "Without music, life would be a mistake.",
       author: "Friedrich Nietzsche"
     }
-  ];
+];
   
 var currentIndex;
   
